@@ -11,41 +11,56 @@
 </head>
 
 <body>
-  <header>
-    <div>
+  <header class="home-header">
+    <div class="header-logo">
       <a href="#home">
-        <img src="Progate-image/typo_logo-b40bf595603dc0e63a5c..svg" alt="">
+        <img src="Progate-image/typo_logo-b40bf595603dc0e63a5c..svg" alt="" class="logo">
       </a>
     </div>
-    <ul>
-      <li>言語</li>
-      <li>ログイン</li>
-      <li>無料会員登録</li>
-    </ul>
+    <div>
+      <ul class="header-list">
+        <li>言語</li>
+        <li>ログイン</li>
+        <li>
+          <button>無料会員登録</button>
+        </li>
+      </ul>
+    </div>
   </header>
 
   <main>
     <div>
-      <h1>プログラミングで人生の可能性を広げよう</h1>
+      <h1>
+        <span class="main-text">プログラミングで<br>
+          人生の可能性を広げよう</span>
+      </h1>
     </div>
-    <div>
-      <img src="Progate-image/users-a679d89a2eda53806fb8..svg" alt="">
-      <span>2,300,000ユーザー</span>
-    </div>
-    <div>
-      <img src="Progate-image/countries-8efc3c1c1ec2f954738c..svg" alt="">
-      <span>提供国数100+</span>
+    <div class="introduction">
+      <div>
+        <img src="Progate-image/users-a679d89a2eda53806fb8..svg" alt="">
+        <span>
+          <strong>2,300,000</strong>
+          ユーザー
+        </span>
+      </div>
+      <div>
+        <img src="Progate-image/countries-8efc3c1c1ec2f954738c..svg" alt="">
+        <span>提供国数
+          <strong>100+</strong>
+        </span>
+      </div>
     </div>
     <div>
       <button>今すぐはじめる</button>
     </div>
     <div>
-      <img src="Progate-image/first_view_ja-7b5585c019014bccb77d..png" alt="">
-      <h2>初心者から、創れる人に</h2>
+      <img src="Progate-image/first_view_ja-7b5585c019014bccb77d..png" alt="" class="home-image">
+      <h2 class="main-text">初心者から、創れる人に</h2>
     </div>
 
+
     <div>
-      <img src="Progate-image/slide_image_jp-0200091b6ad322dc5803..jpg" alt="">
+      <img src="Progate-image/slide_image_jp-0200091b6ad322dc5803..jpg" alt="" class="home-image">
       <h3>イラスト中心のスライドで学ぶ</h3>
       <p>
         紙の本よりも直感的で、動画よりも学びやすい、「スライド学習」を採用しました。
@@ -54,7 +69,7 @@
     </div>
 
     <div>
-      <img src="Progate-image/slide_image_jp-0200091b6ad322dc5803..jpg" alt="">
+      <img src="Progate-image/editor_image_jp-3a2df678b4f42a81d149..jpg" alt="" class="home-image">
       <h3>すぐに実践</h3>
       <p>
         実際にプロダクトを作りながら学ぶから、使えるスキルが身につきます。
@@ -63,7 +78,7 @@
     </div>
 
     <div>
-      <img src="Progate-image/slide_image_jp-0200091b6ad322dc5803..jpg" alt="">
+      <img src="Progate-image/path_image_jp-bef71ebc53ca846487f7..png" alt="" class="home-image">
       <h3>道のりに沿って学ぶ</h3>
       <p>
         「創れる人」になるために必要なレッスンを最適な順番で学ぶことができます。
@@ -87,7 +102,7 @@
       </div>
       <div>
         <img src="Progate-image/1566914605258.png" alt="">
-        <p>「プログラミングはもうやりたくなかったけど必要に迫られて」 mikan グロースハッカーの超実践SQL活用法
+        <p>「プログラミングはもうやりたくなかったけど必要に迫られて」 mikan グロースハッカーの超実践SQL活用法</p>
         <p>飯田 諒</p>
         <p>Japan</p>
       </div>
@@ -119,30 +134,122 @@
     </div>
 
     <div>
-      <img src="Progate-image/plan_section_main-bc878ea855b506606cf7..png" alt="">
-      <h3>あなたに合ったレッスンがきっと見つかる</h3>
-      <p>全16コース・79レッスン</p>
+      <div>
+        <img src="Progate-image/plan_section_main-bc878ea855b506606cf7..png" alt="" class="home-image2">
+        <h3>あなたに合ったレッスンがきっと見つかる</h3>
+        <p>全16コース・79レッスン</p>
+      </div>
+
+      <div>
+        <h3>無料プラン</h3>
+        <p>プログラミングに触れ「基礎」を身につける</p>
+        <p>基礎レベルの16レッスン(各コースの最初のレッスン+α)</p>
+        <p>¥0</p>
+      </div>
+
+      <div>
+        <h3>プラスプラン</h3>
+        <p>「応用」と「実践」で創る力を身につける</p>
+        <p>公開中の79レッスンすべて</p>
+        <p>税込¥1,078/月</p>
+      </div>
+
+      <a href="#">
+        レッスンの公開状況
+        <i class="fas fa-external-link-alt"></i>
+      </a>
     </div>
 
     <div>
-      <h3>無料プラン</h3>
-      <p>プログラミングに触れ「基礎」を身につける</p>
-      <p>基礎レベルの16レッスン(各コースの最初のレッスン+α)</p>
-      <p>¥0</p>
+      <div>
+        <h3>アプリでも、Progate</h3>
+        <p>「まずは気軽に始めてみたい」という方にオススメです。</p>
+      </div>
+      <h4>いつでもどこでもプログラミング</h4>
+      <p>まとまった時間がなくても大丈夫。アプリならスマホゲーム感覚で楽しく始められます。</p>
+      <h4>アプリならではの学習体験</h4>
+      <p>スマホやタブレットの画面に最適化したスライドとキーボードを用意しています。アプリ版でサクっと理解したら、Web版で本格的に実践するのがオススメです。</p>
+      <img src="Progate-image/download-ios-701013f2027553d61911..svg" alt="">
+      <img src="Progate-image/download-android-2469951b8a1091077c28..svg" alt="">
+      <div>
+        <img src="Progate-image/app_image_jp-f2986e67a464f573b1a0..png" alt="" class="home-image2">
+      </div>
     </div>
 
     <div>
-      <h3>プラスプラン</h3>
-      <p>「応用」と「実践」で創る力を身につける</p>
-      <p>公開中の79レッスンすべて</p>
-      <p>税込¥1,078/月</p>
+      <h3>初心者から、創れる人を生み出す</h3>
+      <p>
+        初心者でも独学で、挫折せずに学べること。
+        そして、本物のスキルが身につき 「創れる」ようになること。
+        プログラミングで夢を叶えたい人が、本当に夢を叶えられるように、
+        私たちはこんな思いをProgateに込めています。
+        プログラミングの世界へ踏み出すあなたを、私たちがサポートします。
+      </p>
     </div>
 
-    <a href="#">
-      レッスンの公開状況
-      <i class="fas fa-external-link-alt"></i>
-    </a>
+    <div>
+      <h3>さっそく始めよう</h3>
+      <p>１分後、プログラミングの世界でお会いしましょう。</p>
+      <button>無料会員登録</button>
+    </div>
 
+    <div>
+      <img src="Progate-image/twitter-0bbc0e003ac1f36cd2ef..svg" alt="">
+      <img src="Progate-image/facebook-e14b50ed4aca3144e275..svg" alt="">
+    </div>
+
+    <footer>
+      <div>
+        <img src="Progate-image/typo_logo-b40bf595603dc0e63a5c..svg" alt="" class="logo">
+        <p>アプリ版のダウンロードはこちら</p>
+        <img src="Progate-image/twitter-0bbc0e003ac1f36cd2ef..svg" alt="">
+        <img src="Progate-image/facebook-e14b50ed4aca3144e275..svg" alt="">
+      </div>
+
+      <div>
+        <ul>
+          <li><strong>サービス</strong></li>
+          <li>コース一覧</li>
+          <li>有料会員プラン</li>
+          <li>中学・高校向けプラン</li>
+          <li>学習ロードマップ</li>
+          <li>サクセスストーリー</li>
+          <li>ヘルプ</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><strong>サポート</strong></li>
+          <li>運営会社</li>
+          <li>採用情報</li>
+          <li>利用規約</li>
+          <li>法人プラン利用規約</li>
+          <li>特定商取引法に基づく表示</li>
+          <li>プライバシーポリシー</li>
+        </ul>
+
+        <ul>
+          <li><strong>SNS</strong></li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <li><strong>法人向けサービス</strong></li>
+          <li>
+            <img src="Progate-image/biz_logo_ja-98cf7067364efcd4f1899de2266450871bcdd0a0c617517ac3ae738aaa340963.svg"
+              alt="">
+          </li>
+        </ul>
+        <div>
+          <p>企業のプログラミング研修を支援する、法人のお客様向けの利用プランです。</p>
+        </div>
+      </div>
+
+      <p>© 2014 Progate, Inc.</p>
+    </footer>
 
   </main>
 

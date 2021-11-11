@@ -1,4 +1,55 @@
 @charset "UTF-8";
+
+/* 共通 */
 body {
   width: 100%;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+.logo {
+  width: 160px;
+  height: 40px;
+}
+
+/* header */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px 80px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-list li {
+  padding: 0 30px;
+}
+
+.home-image {
+  width: 100%;
+  height: 100%;
+}
+.home-image2 {
+  width: 35%;
+  height: 35%;
+}
+
+/* main */
+.main-text {
+  font-size: 40px;
+  margin: auto;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  height: 30px;
+  align-items: center;
 }
