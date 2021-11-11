@@ -10,6 +10,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #8491a5;
 }
 
 ul li {
@@ -56,9 +57,10 @@ button {
   background-color: rgb(48, 200, 214);
   width: 250px;
   height: 60px;
-  color: #fff;
   margin-top: 20px;
+  color: #fff;
 }
+
 .button2 {
   background-color: rgb(240, 244, 249);
   width: 250px;
@@ -91,6 +93,10 @@ a.opinion-box {
 .header-list {
   display: flex;
   align-items: center;
+}
+
+.header-list a {
+  color: #2b546a !important;
 }
 
 .pull-down {
