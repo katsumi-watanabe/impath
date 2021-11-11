@@ -4,6 +4,8 @@
 body {
   width: 100%;
   text-align: center;
+  font-size: 18px;
+  color: #2b546a;
 }
 
 ul li {
@@ -13,6 +15,44 @@ ul li {
 .logo {
   width: 160px;
   height: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.second-main-text {
+  width: 90%;
+  margin: 20px auto;
+  line-height: 32px;
+}
+
+/* button */
+button {
+  border: 0px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header-button {
+  background-color: rgb(48, 200, 214);
+  width: 130px;
+  height: 50px;
+  color: #fff;
+}
+
+.button1 {
+  background-color: rgb(48, 200, 214);
+  width: 250px;
+  height: 60px;
+  color: #fff;
+}
+.button2 {
+  background-color: rgb(240, 244, 249);
+  width: 250px;
+  height: 60px;
+  color: #16325c;
 }
 
 /* header */
@@ -32,8 +72,9 @@ ul li {
 }
 
 .home-image {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  margin-top: 60px;
 }
 .home-image2 {
   width: 35%;
@@ -41,6 +82,8 @@ ul li {
 }
 
 /* main */
+
+/* box1 */
 .main-text {
   font-size: 40px;
   margin: auto;
@@ -49,7 +92,35 @@ ul li {
 .introduction {
   display: flex;
   justify-content: center;
-  font-size: 18px;
-  height: 30px;
+  font-size: 20px;
+  margin: 30px auto;
   align-items: center;
 }
+
+.right-space {
+  margin-right: 20px;
+}
+
+.font-size {
+  font-size: 15px;
+}
+
+.font-size strong {
+  font-size: 20px;
+}
+
+.home-box1 {
+  overflow: hidden;
+}
+
+.back-color {
+  background-color: #88e7ce;
+  margin-bottom: 80px;
+  margin-top: 60px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+/* サクセスストーリー */
+
