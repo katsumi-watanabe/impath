@@ -33,7 +33,7 @@ h4 {
   width: 90%;
   margin: 20px auto;
   line-height: 32px;
-  font-size: 12px;
+  font-size: 14px;
   color: #8491a5;
 }
 
@@ -188,6 +188,10 @@ button {
   border-radius: 10px;
 }
 
+.lesson-box {
+  margin-bottom: 80px;
+}
+
 .lesson {
   width: 95%;
   margin: 0 auto 30px;
@@ -269,9 +273,9 @@ button {
 }
 
 .app-progate-text {
-  width: 50%;
+  width: 40%;
   text-align: left;
-  margin: 0 0 0 5%;
+  margin: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -283,11 +287,42 @@ button {
 }
 
 .image-width {
-  width: 65%;
+  width: 50%;
 }
 
 .download-app {
   margin: 50px 0;
   width: 145px;
   height: 50px;
+}
+
+.top-space {
+  margin-top: 50px;
+}
+
+/* 初心者から、創れる人を生み出す */
+.support-text {
+  width: 60%;
+  margin: 200px auto 100px;
+}
+
+.start-text {
+  padding: 100px;
+  background-color: #f0f4f9;
+}
+
+/* icon */
+.sns-icon-space {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  border-bottom: 1px solid #f0f4f9;
+}
+
+.sns-icon-twitter {
+  margin-right: 20px;
+}
+
+.sns-icon-facebook {
+  margin-left: 20px;
 }
