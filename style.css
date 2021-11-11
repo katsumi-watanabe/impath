@@ -4,8 +4,12 @@
 body {
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   color: #2b546a;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul li {
@@ -21,16 +25,22 @@ h3 {
   font-size: 30px;
 }
 
+h4 {
+  font-size: 21px;
+}
+
 .second-main-text {
   width: 90%;
   margin: 20px auto;
   line-height: 32px;
+  font-size: 12px;
+  color: #8491a5;
 }
 
 /* button */
 button {
   border: 0px;
-  border-radius: 4px;
+  border-radius: 8px;
   font-weight: bold;
   font-size: 16px;
 }
@@ -47,19 +57,21 @@ button {
   width: 250px;
   height: 60px;
   color: #fff;
+  margin-top: 20px;
 }
 .button2 {
   background-color: rgb(240, 244, 249);
   width: 250px;
   height: 60px;
   color: #16325c;
+  margin-top: 50px;
 }
 
 /* header */
 .home-header {
   display: flex;
   justify-content: space-between;
-  margin: 30px 20px 80px;
+  margin: 0 20px 80px;
 }
 
 .header-list {
@@ -74,18 +86,23 @@ button {
 .home-image {
   width: 90%;
   height: 90%;
-  margin-top: 60px;
+  margin-top: 70px;
 }
+
 .home-image2 {
-  width: 35%;
-  height: 35%;
+  width: 70%;
+  margin: 30px 0 0 30px;
+}
+
+.home-image3 {
+  width: 100%;
 }
 
 /* main */
 
 /* box1 */
 .main-text {
-  font-size: 40px;
+  font-size: 50px;
   margin: auto;
 }
 
@@ -123,4 +140,154 @@ button {
 }
 
 /* サクセスストーリー */
+.success-story {
+  padding-top: 100px;
+  background-color: #2b546a;
+  color: #fff;
+  padding-bottom: 70px;
+  margin: 80px auto;
+}
 
+.success-story-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.success-story-section {
+  width: 27%;
+  padding: 50px 15px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.success-story-section img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.success-story-section p {
+  color: #2b546a;
+  width: 90%;
+  font-weight: bold;
+  margin: 40px auto;
+}
+
+.success-story-section p:nth-child(3),
+.success-story-section p:nth-child(4) {
+  margin: 5px auto;
+  color: #bac6d3;
+}
+
+/* lesson-content */
+.lesson-common {
+  background-color: #f0f4f9;
+  border-radius: 10px;
+}
+
+.lesson {
+  width: 95%;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.lesson-content {
+  width: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lesson-common p {
+  color: #8491a5;
+}
+
+.lesson-width {
+  width: 100%;
+}
+.lesson-section {
+  margin: 0 auto;
+  width: 45%;
+  padding: 70px 0;
+}
+
+.lesson-section:nth-child(2) {
+  background-color: #f7edad;
+}
+
+.lesson-section h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.lesson-section p:nth-child(2) {
+  width: 60%;
+  margin: 0 auto 60px;
+}
+
+.lesson-section p:nth-child(3) {
+  width: 80%;
+  color: #2b546a;
+  margin: 20px auto 0;
+  font-weight: bold;
+}
+
+.lesson-section p:nth-child(4),
+.lesson-section p:nth-child(6) {
+  width: 80%;
+  color: #2b546a;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.lesson-section p span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.lesson-link {
+  text-align: left;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* アプリでも、Progate */
+.app-progate {
+  width: 95%;
+  background-color: #90c3f0;
+  display: flex;
+  justify-content: center;
+  margin: 40px auto 0;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.app-progate-text {
+  width: 50%;
+  text-align: left;
+  margin: 0 0 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-progate-text p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.image-width {
+  width: 65%;
+}
+
+.download-app {
+  margin: 50px 0;
+  width: 145px;
+  height: 50px;
+}
