@@ -4,7 +4,7 @@
 body {
   width: 100%;
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
   color: #2b546a;
 }
 
@@ -34,8 +34,13 @@ h4 {
   width: 90%;
   margin: 20px auto;
   line-height: 32px;
-  font-size: 14px;
+  font-size: 15px;
   color: #8491a5;
+}
+
+.width-size {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* button */
@@ -110,8 +115,7 @@ a.opinion-box {
 }
 
 .home-image {
-  width: 90%;
-  height: 90%;
+  max-width: 1000px;
   margin-top: 70px;
 }
 
@@ -175,24 +179,25 @@ a.opinion-box {
 }
 
 .success-story-box {
-  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .success-story-section {
-  width: 27%;
-  padding: 50px 15px;
-  margin: 20px auto;
+  width: 28%;
+  padding: 40px 15px;
+  margin: 20px 0;
   background-color: #fff;
   border-radius: 10px;
 }
 
 .success-story-section img {
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 .success-story-section p {
@@ -219,7 +224,6 @@ a.opinion-box {
 }
 
 .lesson {
-  width: 95%;
   margin: 0 auto 30px;
   display: flex;
   justify-content: center;
@@ -242,12 +246,16 @@ a.opinion-box {
 }
 .lesson-section {
   margin: 0 auto;
-  width: 45%;
+  width: 48%;
   padding: 70px 0;
 }
 
+.lesson-section:nth-child(1) {
+  margin-left: 0;
+}
 .lesson-section:nth-child(2) {
   background-color: #f7edad;
+  margin-right: 0;
 }
 
 .lesson-section h3 {
@@ -283,13 +291,16 @@ a.opinion-box {
 
 .lesson-link {
   text-align: left;
-  width: 95%;
   margin: 0 auto;
+}
+
+.lesson-link a {
+  color: #0070d2;
 }
 
 /* アプリでも、Progate */
 .app-progate {
-  width: 95%;
+  max-width: 1000px;
   background-color: #90c3f0;
   display: flex;
   justify-content: center;
@@ -355,7 +366,7 @@ a.opinion-box {
 
 /* footer */
 .footer-flex {
-  width: 95%;
+  max-width: 1000px;
   display: flex;
   justify-content: center;
   margin: 60px auto 0;
