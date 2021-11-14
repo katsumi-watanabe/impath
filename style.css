@@ -6,6 +6,8 @@ body {
   text-align: center;
   font-size: 16px;
   color: #2b546a;
+  padding-top: 80px;
+  margin: 0;
 }
 
 a {
@@ -15,6 +17,11 @@ a {
 
 ul li {
   list-style: none;
+}
+
+.header-logo {
+  width: 120px;
+  height: 30px;
 }
 
 .logo {
@@ -47,15 +54,15 @@ h4 {
 /* button */
 button {
   border: 0px;
-  border-radius: 8px;
+  border-radius: 5px;
   font-weight: bold;
   font-size: 16px;
 }
 
 .header-button {
   background-color: rgb(48, 200, 214);
-  width: 130px;
-  height: 50px;
+  width: 110px;
+  height: 40px;
   color: #fff;
 }
 
@@ -90,10 +97,22 @@ a.opinion-box {
 }
 
 /* header */
+header {
+  background-color: #f9fbfe;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 200px;
+  top: 0;
+  left: 0;
+}
+
 .home-header {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px 80px;
+  align-items: center;
+  padding: 20px 20px;
 }
 
 .header-list {
@@ -101,18 +120,28 @@ a.opinion-box {
   align-items: center;
 }
 
+ul.header-list {
+  margin: 0;
+}
+
 .header-list a {
   color: #2b546a !important;
+}
+
+.header-list li {
+  padding: 0 20px;
+}
+
+.header-list li a,
+button.header-button,
+select.pull-down {
+  font-size: 14px;
 }
 
 .pull-down {
   border: 0;
   font-size: 17px;
   color: #2b546a;
-}
-
-.header-list li {
-  padding: 0 30px;
 }
 
 .home-image {
@@ -411,6 +440,7 @@ a.opinion-box {
 
 .footer-box1 p {
   margin-top: 100px;
+  width: 90%;
 }
 
 .footer-sns-text {
