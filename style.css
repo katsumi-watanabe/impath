@@ -40,6 +40,7 @@ h4 {
 
 .width-size {
   max-width: 1000px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -116,6 +117,7 @@ a.opinion-box {
 
 .home-image {
   max-width: 1000px;
+  width: 90%;
   margin-top: 70px;
 }
 
@@ -180,6 +182,7 @@ a.opinion-box {
 
 .success-story-box {
   max-width: 1000px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -299,8 +302,14 @@ a.opinion-box {
 }
 
 /* アプリでも、Progate */
+
+.width-space {
+  width: 90%;
+  margin: 0 auto;
+}
 .app-progate {
   max-width: 1000px;
+  padding: 60px 60px 0;
   background-color: #90c3f0;
   display: flex;
   justify-content: center;
@@ -309,10 +318,14 @@ a.opinion-box {
   color: #fff;
 }
 
+.app-progate h4 {
+  margin: 0;
+}
+
 .app-progate-text {
   width: 40%;
   text-align: left;
-  margin: 0 5%;
+  margin-right: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -320,21 +333,19 @@ a.opinion-box {
 
 .app-progate-text p {
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .image-width {
   width: 50%;
+  align-items: center;
+  display: flex;
 }
 
 .download-app {
   margin: 50px 0;
-  width: 145px;
-  height: 50px;
-}
-
-.top-space {
-  margin-top: 50px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* 初心者から、創れる人を生み出す */
@@ -425,4 +436,13 @@ a.opinion-box {
   text-align: left;
   width: 95%;
   margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .app-progate {
+    padding: 5.2% 5.2% 0;
+  }
+  .download-app {
+    margin: 30px 0;
+  }
 }
