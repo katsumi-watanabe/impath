@@ -6,7 +6,7 @@ body {
   text-align: center;
   font-size: 16px;
   color: #2b546a;
-  padding-top: 80px;
+  padding-top: 120px;
   margin: 0;
 }
 
@@ -167,6 +167,10 @@ select.pull-down {
   margin: auto;
 }
 
+.top-text-image {
+  display: flex;
+}
+
 .introduction {
   display: flex;
   justify-content: center;
@@ -181,6 +185,7 @@ select.pull-down {
 
 .font-size {
   font-size: 15px;
+  margin-left: 10px;
 }
 
 .font-size strong {
@@ -469,10 +474,71 @@ select.pull-down {
 }
 
 @media (max-width: 991px) {
-  .app-progate {
-    padding: 5.2% 5.2% 0;
+  /* home-top */
+  h1 {
+    margin-bottom: 0;
   }
+
+  .main-text {
+    font-size: 48px;
+    margin-bottom: 0;
+  }
+
+  .font-size {
+    font-size: 12px;
+  }
+
+  .introduction {
+    margin-top: 10px;
+  }
+
+  .font-size strong {
+    font-size: 18px;
+  }
+
+  .button1 {
+    margin-top: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  /* サクセスストーリー */
+  .success-story-section {
+    width: 44%;
+  }
+
+  .button2 {
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  /* アプリでも、Progate */
+
+  .app-progate {
+    padding: 50px 30px 0;
+  }
+
+  .app-progate h4 {
+    font-size: 18px;
+  }
+
+  h4.app-top-space {
+    margin-top: 40px;
+  }
+  .app-progate-text p {
+    margin: 20px 0 0;
+    font-size: 14px;
+  }
+
   .download-app {
     margin: 30px 0;
+  }
+
+  /* footer */
+  footer {
+    width: 85%;
+    margin: 0 auto;
   }
 }
