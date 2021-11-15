@@ -8,7 +8,7 @@ body {
   color: #2b546a;
   padding-top: 120px;
   margin: 0;
-  background-color: #fff;
+  background-color: #f9fbfe;
 }
 
 a {
@@ -240,6 +240,11 @@ select.pull-down {
   border-radius: 10px;
 }
 
+.success-story-section:hover {
+  transform: scale(1.02, 1.02);
+  transition: 0.5s;
+}
+
 .success-story-section img {
   border-radius: 50%;
   width: 100px;
@@ -392,9 +397,13 @@ p.country {
 }
 
 /* 初心者から、創れる人を生み出す */
+.support-title {
+  width: 100%;
+  background-color: #fff;
+}
 .support-text {
-  width: 80%;
-  margin: 200px auto 100px;
+  margin: 40px auto 0;
+  padding: 60px 0;
 }
 
 .start-text {
@@ -408,6 +417,7 @@ p.country {
   justify-content: center;
   padding: 50px 0;
   border-bottom: 1px solid #f0f4f9;
+  background-color: #fff;
 }
 
 .sns-icon-twitter {
@@ -420,14 +430,17 @@ p.country {
 
 /* footer */
 footer {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
+  background-color: #fff;
 }
 .footer-flex {
+  width: 95%;
   max-width: 1000px;
   display: flex;
   justify-content: center;
-  margin: 60px auto 0;
+  padding-top: 60px;
+  margin: 0 auto;
   text-align: left;
   color: #8491a5;
 }
@@ -919,6 +932,14 @@ footer {
     font-size: 12px;
   }
 
+  .lesson-section p span {
+    font-size: 28px;
+  }
+
+  .lesson-section p:nth-child(6) {
+    font-size: 14px;
+  }
+
   /* アプリでも、Progate */
   .app-title h3,
   .app-title p {
@@ -948,6 +969,15 @@ footer {
   }
 
   /* 初心者から、創れる人を生み出す */
+  .support-title {
+    width: 100%;
+    background-color: #fff;
+  }
+  .support-text {
+    width: 90%;
+    margin: 80px auto 0;
+    padding: 80px 0;
+  }
   .support-text h3,
   .support-text p {
     margin-left: 0;
